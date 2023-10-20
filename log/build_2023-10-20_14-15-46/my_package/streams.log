@@ -1,0 +1,23 @@
+[1.715s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/src/my_package': PYTHONPATH=/home/mtrn/4231/liam_stuff/4231project/build/my_package/prefix_override:/home/mtrn/4231/liam_stuff/4231project/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mtrn/4231/liam_stuff/4231project/build/my_package/build install --record /home/mtrn/4231/liam_stuff/4231project/build/my_package/install.log --single-version-externally-managed
+[2.041s] running egg_info
+[2.042s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.042s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.042s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.043s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.043s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.045s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.046s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.047s] running build
+[2.047s] running build_py
+[2.047s] running install
+[2.047s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.047s]   warnings.warn(
+[2.047s] running install_lib
+[2.048s] running install_data
+[2.049s] running install_egg_info
+[2.052s] removing '/home/mtrn/4231/liam_stuff/4231project/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.052s] Copying ../../build/my_package/my_package.egg-info to /home/mtrn/4231/liam_stuff/4231project/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.053s] running install_scripts
+[2.080s] Installing my_node script to /home/mtrn/4231/liam_stuff/4231project/install/my_package/lib/my_package
+[2.080s] writing list of installed files to '/home/mtrn/4231/liam_stuff/4231project/build/my_package/install.log'
+[2.134s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/src/my_package' returned '0': PYTHONPATH=/home/mtrn/4231/liam_stuff/4231project/build/my_package/prefix_override:/home/mtrn/4231/liam_stuff/4231project/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mtrn/4231/liam_stuff/4231project/build/my_package/build install --record /home/mtrn/4231/liam_stuff/4231project/build/my_package/install.log --single-version-externally-managed

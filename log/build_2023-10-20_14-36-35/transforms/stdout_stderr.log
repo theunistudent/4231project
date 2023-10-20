@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/paper.dir/src/paper.cpp.o[0m
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K In member function ‘[01m[Kvoid PaperTFBroadcaster::topic_callback(ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klength[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2::length[m[K’?
+   46 |       for (int i = 0; i < [01;31m[Klength[m[K(msg->marker_ids); i++) {
+      |                           [01;31m[K^~~~~~[m[K
+      |                           [32m[Ktf2::length[m[K
+In file included from [01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:403:1:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::length[m[K’ declared here
+  403 | [01;36m[Klength[m[K(const Quaternion& q)
+      | [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/paper.dir/build.make:76: CMakeFiles/paper.dir/src/paper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/paper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kros2_aruco_interfaces.msg/ArucoMarkers: No such file or directory
+   17 | #include [01;31m[K<ros2_aruco_interfaces.msg/ArucoMarkers>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/paper_tf_broadcaster_node.dir/build.make:76: CMakeFiles/paper_tf_broadcaster_node.dir/src/paper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/paper_tf_broadcaster_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

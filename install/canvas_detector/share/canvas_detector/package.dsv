@@ -1,0 +1,8 @@
+source;share/canvas_detector/hook/cmake_prefix_path.ps1
+source;share/canvas_detector/hook/cmake_prefix_path.dsv
+source;share/canvas_detector/hook/cmake_prefix_path.sh
+source;share/canvas_detector/local_setup.bash
+source;share/canvas_detector/local_setup.dsv
+source;share/canvas_detector/local_setup.ps1
+source;share/canvas_detector/local_setup.sh
+source;share/canvas_detector/local_setup.zsh

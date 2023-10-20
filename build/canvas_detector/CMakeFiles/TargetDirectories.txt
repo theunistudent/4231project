@@ -1,0 +1,9 @@
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/uninstall.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/canvas_detector_uninstall.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/test.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/edit_cache.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/rebuild_cache.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/list_install_components.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/install.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/install/local.dir
+/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector/CMakeFiles/install/strip.dir

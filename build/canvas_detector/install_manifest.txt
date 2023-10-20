@@ -1,0 +1,15 @@
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/ament_index/resource_index/package_run_dependencies/canvas_detector
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/ament_index/resource_index/parent_prefix_path/canvas_detector
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/ament_prefix_path.sh
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/ament_prefix_path.dsv
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/path.sh
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/path.dsv
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.bash
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.sh
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.zsh
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.dsv
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/package.dsv
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/ament_index/resource_index/packages/canvas_detector
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/cmake/canvas_detectorConfig.cmake
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/cmake/canvas_detectorConfig-version.cmake
+/home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/package.xml

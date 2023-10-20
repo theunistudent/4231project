@@ -1,0 +1,20 @@
+[0.114s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/canvas_detector -- -j12 -l12
+[1.213s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/canvas_detector -- -j12 -l12
+[1.387s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --install /home/mtrn/4231/liam_stuff/4231project/build/canvas_detector
+[1.440s] -- Install configuration: ""
+[1.440s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/ament_index/resource_index/package_run_dependencies/canvas_detector
+[1.440s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/ament_index/resource_index/parent_prefix_path/canvas_detector
+[1.440s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/ament_prefix_path.sh
+[1.440s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/ament_prefix_path.dsv
+[1.440s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/path.sh
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/environment/path.dsv
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.bash
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.sh
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.zsh
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/local_setup.dsv
+[1.441s] -- Installing: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/package.dsv
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/ament_index/resource_index/packages/canvas_detector
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/cmake/canvas_detectorConfig.cmake
+[1.441s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/cmake/canvas_detectorConfig-version.cmake
+[1.442s] -- Up-to-date: /home/mtrn/4231/liam_stuff/4231project/install/canvas_detector/share/canvas_detector/package.xml
+[1.450s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/canvas_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --install /home/mtrn/4231/liam_stuff/4231project/build/canvas_detector

@@ -1,0 +1,4 @@
+source;share/canvas/environment/ament_prefix_path.sh
+source;share/canvas/environment/library_path.sh
+source;share/canvas/environment/path.sh
+source;share/canvas/environment/pythonpath.sh

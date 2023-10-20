@@ -1,0 +1,14 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/paper_tf_broadcaster_node.dir/src/paper.cpp.o[0m
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K In member function ‘[01m[Kvoid PaperTFBroadcaster::topic_callback(const ArucoMarkers&) const[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:50:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ArucoMarkers[m[K’ {aka ‘[01m[Kconst struct ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   50 |       transform_msg.transform.translation.x = msg.[01;31m[Kdata[m[K.poses[0].pose.position.x;
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:51:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ArucoMarkers[m[K’ {aka ‘[01m[Kconst struct ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   51 |       transform_msg.transform.translation.y = msg.[01;31m[Kdata[m[K.poses[0].pose.position.y;
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:52:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ArucoMarkers[m[K’ {aka ‘[01m[Kconst struct ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   52 |       transform_msg.transform.translation.z = msg.[01;31m[Kdata[m[K.poses[0].pose.position.z;
+      |                                                   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/paper_tf_broadcaster_node.dir/build.make:76: CMakeFiles/paper_tf_broadcaster_node.dir/src/paper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/paper_tf_broadcaster_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
