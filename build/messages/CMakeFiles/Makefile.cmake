@@ -122,9 +122,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "rosidl_cmake/rosidl_cmake-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+<<<<<<< Updated upstream
   "/home/mtrn/4231/liam_stuff/project_git/4231project/src/messages/CMakeLists.txt"
   "/home/mtrn/4231/liam_stuff/project_git/4231project/src/messages/msg/ArucoMessage.msg"
   "/home/mtrn/4231/liam_stuff/project_git/4231project/src/messages/package.xml"
+=======
+  "/home/mtrn/4231/liam_stuff/4231project/src/messages/CMakeLists.txt"
+  "/home/mtrn/4231/liam_stuff/4231project/src/messages/msg/ArucoMessage.msg"
+  "/home/mtrn/4231/liam_stuff/4231project/src/messages/package.xml"
+>>>>>>> Stashed changes
   "/opt/ros/humble/lib/cmake/fastcdr/fastcdr-config-version.cmake"
   "/opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake"
   "/opt/ros/humble/lib/cmake/fastcdr/fastcdr-dynamic-targets-none.cmake"
@@ -499,7 +505,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/messages"
   "ament_cmake_index/share/ament_index/resource_index/packages/messages"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+<<<<<<< Updated upstream
   "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+=======
+  "/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+>>>>>>> Stashed changes
   )
 
 # Dependency information for all targets:
@@ -521,5 +531,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/messages__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/messages__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/messages__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
+<<<<<<< Updated upstream
   "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/DependInfo.cmake"
+=======
+  "/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/DependInfo.cmake"
+>>>>>>> Stashed changes
   )

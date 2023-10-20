@@ -1,7 +1,13 @@
 CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/aruco_message__functions.c.o: \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.c \
  /usr/include/stdc-predef.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.c \
+ /usr/include/stdc-predef.h \
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h \
+>>>>>>> Stashed changes
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,8 +49,13 @@ CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/deta
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
+>>>>>>> Stashed changes
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

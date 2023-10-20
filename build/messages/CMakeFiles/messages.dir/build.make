@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Utility rule file for messages.
 
@@ -66,7 +73,11 @@ include CMakeFiles/messages.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/messages.dir/progress.make
 
+<<<<<<< Updated upstream
 CMakeFiles/messages: /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages/msg/ArucoMessage.msg
+=======
+CMakeFiles/messages: /home/mtrn/4231/liam_stuff/4231project/src/messages/msg/ArucoMessage.msg
+>>>>>>> Stashed changes
 
 messages: CMakeFiles/messages
 messages: CMakeFiles/messages.dir/build.make
@@ -81,6 +92,10 @@ CMakeFiles/messages.dir/clean:
 .PHONY : CMakeFiles/messages.dir/clean
 
 CMakeFiles/messages.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/messages.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/messages.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/messages.dir/depend
 

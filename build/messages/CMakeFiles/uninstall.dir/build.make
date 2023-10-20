@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Utility rule file for uninstall.
 
@@ -78,6 +85,10 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/uninstall.dir/depend
 

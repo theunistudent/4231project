@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Include any dependencies generated for this target.
 include CMakeFiles/messages__rosidl_generator_py.dir/depend.make
@@ -72,6 +79,7 @@ include CMakeFiles/messages__rosidl_generator_py.dir/flags.make
 CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o: CMakeFiles/messages__rosidl_generator_py.dir/flags.make
 CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o: rosidl_generator_py/messages/msg/_aruco_message_s.c
 CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o: CMakeFiles/messages__rosidl_generator_py.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o -MF CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o.d -o CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o -c /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c
 
@@ -82,6 +90,18 @@ CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_a
 CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c -o CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o -MF CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o.d -o CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o -c /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c
+
+CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c > CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.i
+
+CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c -o CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.s
+>>>>>>> Stashed changes
 
 # Object files for target messages__rosidl_generator_py
 messages__rosidl_generator_py_OBJECTS = \
@@ -98,7 +118,11 @@ rosidl_generator_py/messages/libmessages__rosidl_generator_py.so: libmessages__r
 rosidl_generator_py/messages/libmessages__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/messages/libmessages__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/messages/libmessages__rosidl_generator_py.so: CMakeFiles/messages__rosidl_generator_py.dir/link.txt
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/messages/libmessages__rosidl_generator_py.so"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/messages/libmessages__rosidl_generator_py.so"
+>>>>>>> Stashed changes
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/messages__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +134,10 @@ CMakeFiles/messages__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/messages__rosidl_generator_py.dir/clean
 
 CMakeFiles/messages__rosidl_generator_py.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/messages__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/messages__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/messages__rosidl_generator_py.dir/depend
 

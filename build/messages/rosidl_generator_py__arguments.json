@@ -1,9 +1,16 @@
 {
   "package_name": "messages",
+<<<<<<< Updated upstream
   "output_dir": "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py/messages",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
     "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_adapter/messages:msg/ArucoMessage.idl"
+=======
+  "output_dir": "/home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py/messages",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_adapter/messages:msg/ArucoMessage.idl"
+>>>>>>> Stashed changes
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +26,10 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+<<<<<<< Updated upstream
     "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_adapter/messages/msg/ArucoMessage.idl"
+=======
+    "/home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_adapter/messages/msg/ArucoMessage.idl"
+>>>>>>> Stashed changes
   ]
 }

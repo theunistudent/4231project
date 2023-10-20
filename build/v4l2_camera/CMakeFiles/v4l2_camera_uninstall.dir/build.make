@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera
+>>>>>>> Stashed changes
 
 # Utility rule file for v4l2_camera_uninstall.
 
@@ -67,7 +74,11 @@ include CMakeFiles/v4l2_camera_uninstall.dir/compiler_depend.make
 include CMakeFiles/v4l2_camera_uninstall.dir/progress.make
 
 CMakeFiles/v4l2_camera_uninstall:
+<<<<<<< Updated upstream
 	/home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -P /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+=======
+	/home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -P /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+>>>>>>> Stashed changes
 
 v4l2_camera_uninstall: CMakeFiles/v4l2_camera_uninstall
 v4l2_camera_uninstall: CMakeFiles/v4l2_camera_uninstall.dir/build.make
@@ -82,6 +93,10 @@ CMakeFiles/v4l2_camera_uninstall.dir/clean:
 .PHONY : CMakeFiles/v4l2_camera_uninstall.dir/clean
 
 CMakeFiles/v4l2_camera_uninstall.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/v4l2_camera_uninstall.dir/depend
 

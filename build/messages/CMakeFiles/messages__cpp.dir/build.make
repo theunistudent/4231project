@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Utility rule file for messages__cpp.
 
@@ -87,8 +94,13 @@ rosidl_generator_cpp/messages/msg/aruco_message.hpp: /opt/ros/humble/share/rosid
 rosidl_generator_cpp/messages/msg/aruco_message.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/messages/msg/aruco_message.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/messages/msg/aruco_message.hpp: rosidl_adapter/messages/msg/ArucoMessage.idl
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_cpp__arguments.json
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_cpp__arguments.json
+>>>>>>> Stashed changes
 
 rosidl_generator_cpp/messages/msg/detail/aruco_message__builder.hpp: rosidl_generator_cpp/messages/msg/aruco_message.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/messages/msg/detail/aruco_message__builder.hpp
@@ -116,6 +128,10 @@ CMakeFiles/messages__cpp.dir/clean:
 .PHONY : CMakeFiles/messages__cpp.dir/clean
 
 CMakeFiles/messages__cpp.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/messages__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/messages__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/messages__cpp.dir/depend
 

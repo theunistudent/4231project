@@ -122,8 +122,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
   "ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
   "ament_cmake_package_templates/templates.cmake"
+<<<<<<< Updated upstream
   "/home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/CMakeLists.txt"
   "/home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/package.xml"
+=======
+  "/home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/CMakeLists.txt"
+  "/home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/package.xml"
+>>>>>>> Stashed changes
   "/opt/ros/humble/cmake/yamlConfig.cmake"
   "/opt/ros/humble/cmake/yamlConfigVersion.cmake"
   "/opt/ros/humble/cmake/yamlTargets-none.cmake"

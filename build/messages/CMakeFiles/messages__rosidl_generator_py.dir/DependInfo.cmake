@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< Updated upstream
   "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c" "CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o" "gcc" "CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o.d"
+=======
+  "/home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c" "CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o" "gcc" "CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o.d"
+>>>>>>> Stashed changes
   )
 
 # Targets to which this target links which contain Fortran sources.

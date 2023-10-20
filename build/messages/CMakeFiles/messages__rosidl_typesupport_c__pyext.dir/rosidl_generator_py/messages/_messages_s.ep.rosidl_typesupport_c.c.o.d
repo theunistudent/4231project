@@ -1,5 +1,9 @@
 CMakeFiles/messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o: \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c \
+>>>>>>> Stashed changes
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -201,8 +205,16 @@ CMakeFiles/messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__type_support.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h
+=======
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__type_support.h \
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h
+>>>>>>> Stashed changes

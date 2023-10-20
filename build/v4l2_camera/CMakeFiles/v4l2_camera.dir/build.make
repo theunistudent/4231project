@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera
+>>>>>>> Stashed changes
 
 # Include any dependencies generated for this target.
 include CMakeFiles/v4l2_camera.dir/depend.make
@@ -70,6 +77,7 @@ include CMakeFiles/v4l2_camera.dir/progress.make
 include CMakeFiles/v4l2_camera.dir/flags.make
 
 CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: CMakeFiles/v4l2_camera.dir/flags.make
+<<<<<<< Updated upstream
 CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp
 CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: CMakeFiles/v4l2_camera.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o"
@@ -110,6 +118,48 @@ CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.i: cmake_force
 CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp -o CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.s
+=======
+CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp
+CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: CMakeFiles/v4l2_camera.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o -MF CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o.d -o CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o -c /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp
+
+CMakeFiles/v4l2_camera.dir/src/parameters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/v4l2_camera.dir/src/parameters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp > CMakeFiles/v4l2_camera.dir/src/parameters.cpp.i
+
+CMakeFiles/v4l2_camera.dir/src/parameters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/v4l2_camera.dir/src/parameters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp -o CMakeFiles/v4l2_camera.dir/src/parameters.cpp.s
+
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o: CMakeFiles/v4l2_camera.dir/flags.make
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o: /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera.cpp
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o: CMakeFiles/v4l2_camera.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o -MF CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o.d -o CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o -c /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera.cpp
+
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera.cpp > CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.i
+
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera.cpp -o CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.s
+
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: CMakeFiles/v4l2_camera.dir/flags.make
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: CMakeFiles/v4l2_camera.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o -MF CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o.d -o CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o -c /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp
+
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp > CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.i
+
+CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp -o CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.s
+>>>>>>> Stashed changes
 
 # Object files for target v4l2_camera
 v4l2_camera_OBJECTS = \
@@ -221,7 +271,11 @@ libv4l2_camera.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libv4l2_camera.so: /opt/ros/humble/lib/libtracetools.so
 libv4l2_camera.so: /opt/ros/humble/lib/librcutils.so
 libv4l2_camera.so: CMakeFiles/v4l2_camera.dir/link.txt
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libv4l2_camera.so"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libv4l2_camera.so"
+>>>>>>> Stashed changes
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/v4l2_camera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +287,10 @@ CMakeFiles/v4l2_camera.dir/clean:
 .PHONY : CMakeFiles/v4l2_camera.dir/clean
 
 CMakeFiles/v4l2_camera.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/v4l2_camera.dir/depend
 

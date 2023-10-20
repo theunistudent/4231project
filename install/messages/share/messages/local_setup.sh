@@ -2,7 +2,11 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
+<<<<<<< Updated upstream
 : ${AMENT_CURRENT_PREFIX:="/home/mtrn/4231/liam_stuff/project_git/4231project/install/messages"}
+=======
+: ${AMENT_CURRENT_PREFIX:="/home/mtrn/4231/liam_stuff/4231project/install/messages"}
+>>>>>>> Stashed changes
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

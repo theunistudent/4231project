@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Utility rule file for ament_cmake_python_build_messages_egg.
 
@@ -67,7 +74,11 @@ include CMakeFiles/ament_cmake_python_build_messages_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_messages_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_messages_egg:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/ament_cmake_python/messages && /usr/bin/python3.10 setup.py egg_info
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages/ament_cmake_python/messages && /usr/bin/python3.10 setup.py egg_info
+>>>>>>> Stashed changes
 
 ament_cmake_python_build_messages_egg: CMakeFiles/ament_cmake_python_build_messages_egg
 ament_cmake_python_build_messages_egg: CMakeFiles/ament_cmake_python_build_messages_egg.dir/build.make
@@ -82,6 +93,10 @@ CMakeFiles/ament_cmake_python_build_messages_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_messages_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_messages_egg.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/ament_cmake_python_build_messages_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/ament_cmake_python_build_messages_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/ament_cmake_python_build_messages_egg.dir/depend
 

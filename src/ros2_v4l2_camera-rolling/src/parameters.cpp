@@ -32,7 +32,7 @@ Parameters::Parameters(
 
 void Parameters::declareStaticParameters()
 {
-  declareParameter("video_device", "/dev/video1", "Path to video device", true);
+  declareParameter("video_device", "/dev/video0", "Path to video device", true);
   declareParameter(
     "camera_info_url", "", "The location for getting camera calibration data",
     true);

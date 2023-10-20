@@ -3,4 +3,10 @@ messages/__init__.py
 messages.egg-info/PKG-INFO
 messages.egg-info/SOURCES.txt
 messages.egg-info/dependency_links.txt
+<<<<<<< Updated upstream
 messages.egg-info/top_level.txt
+=======
+messages.egg-info/top_level.txt
+messages/msg/__init__.py
+messages/msg/_aruco_message.py
+>>>>>>> Stashed changes

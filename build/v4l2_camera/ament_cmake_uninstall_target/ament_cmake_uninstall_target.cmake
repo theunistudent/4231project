@@ -2,7 +2,11 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
+<<<<<<< Updated upstream
   set(install_space "/home/mtrn/4231/liam_stuff/project_git/4231project/install/v4l2_camera")
+=======
+  set(install_space "/home/mtrn/4231/liam_stuff/4231project/install/v4l2_camera")
+>>>>>>> Stashed changes
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +33,11 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
+<<<<<<< Updated upstream
 set(install_manifest "/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/install_manifest.txt")
+=======
+set(install_manifest "/home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/install_manifest.txt")
+>>>>>>> Stashed changes
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

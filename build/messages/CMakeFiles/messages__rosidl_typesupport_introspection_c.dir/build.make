@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Include any dependencies generated for this target.
 include CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/depend.make
@@ -78,8 +85,13 @@ rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typ
 rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h: rosidl_adapter/messages/msg/ArucoMessage.idl
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_introspection_c__arguments.json
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_typesupport_introspection_c__arguments.json
+>>>>>>> Stashed changes
 
 rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c: rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c
@@ -87,6 +99,7 @@ rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_suppo
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o: CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o: rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o: CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o -MF CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o.d -o CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o -c /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c
 
@@ -97,6 +110,18 @@ CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c -o CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o -MF CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o.d -o CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o -c /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c
+
+CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c > CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.i
+
+CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c -o CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.s
+>>>>>>> Stashed changes
 
 # Object files for target messages__rosidl_typesupport_introspection_c
 messages__rosidl_typesupport_introspection_c_OBJECTS = \
@@ -112,7 +137,11 @@ libmessages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosid
 libmessages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmessages__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libmessages__rosidl_typesupport_introspection_c.so: CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/link.txt
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmessages__rosidl_typesupport_introspection_c.so"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmessages__rosidl_typesupport_introspection_c.so"
+>>>>>>> Stashed changes
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +154,10 @@ CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/depend
 

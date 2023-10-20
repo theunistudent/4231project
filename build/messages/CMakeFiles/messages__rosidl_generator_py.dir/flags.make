@@ -4,7 +4,11 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"messages\" -Dmessages__rosidl_generator_py_EXPORTS
 
+<<<<<<< Updated upstream
 C_INCLUDES = -I/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c -I/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+=======
+C_INCLUDES = -I/home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_c -I/home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+>>>>>>> Stashed changes
 
 C_FLAGS = -fPIC -Wall -Wextra
 

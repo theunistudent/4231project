@@ -1,5 +1,9 @@
 CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/aruco_message__type_support.cpp.o: \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_cpp/messages/msg/aruco_message__type_support.cpp \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_typesupport_cpp/messages/msg/aruco_message__type_support.cpp \
+>>>>>>> Stashed changes
  /usr/include/stdc-predef.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -15,7 +19,11 @@ CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_cpp/messages/msg/detail/aruco_message__struct.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_cpp/messages/msg/detail/aruco_message__struct.hpp \
+>>>>>>> Stashed changes
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \

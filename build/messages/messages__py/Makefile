@@ -57,10 +57,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +149,24 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py//CMakeFiles/progress.marks
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles 0
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py//CMakeFiles/progress.marks
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles 0
+>>>>>>> Stashed changes
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/clean
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/clean
+>>>>>>> Stashed changes
 .PHONY : clean
 
 # The main clean target
@@ -158,16 +175,25 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/preinstall
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/preinstall
+>>>>>>> Stashed changes
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/preinstall
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/preinstall
+>>>>>>> Stashed changes
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -178,11 +204,27 @@ depend:
 
 # Convenience name for target.
 messages__py: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/rule
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+.PHONY : depend
+
+# Convenience name for target.
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/rule:
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/rule
+.PHONY : /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/rule
+
+# Convenience name for target.
+messages__py: /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/rule
+>>>>>>> Stashed changes
 .PHONY : messages__py
 
 # fast build rule for target.
 messages__py/fast:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(MAKE) $(MAKESILENT) -f /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build.make /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(MAKE) $(MAKESILENT) -f /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build.make /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build
+>>>>>>> Stashed changes
 .PHONY : messages__py/fast
 
 # Help Target
@@ -210,6 +252,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> Stashed changes
 .PHONY : cmake_check_build_system
 

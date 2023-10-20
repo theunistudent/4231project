@@ -53,10 +53,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Utility rule file for messages_uninstall.
 
@@ -67,7 +74,11 @@ include CMakeFiles/messages_uninstall.dir/compiler_depend.make
 include CMakeFiles/messages_uninstall.dir/progress.make
 
 CMakeFiles/messages_uninstall:
+<<<<<<< Updated upstream
 	/home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -P /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+=======
+	/home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -P /home/mtrn/4231/liam_stuff/4231project/build/messages/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+>>>>>>> Stashed changes
 
 messages_uninstall: CMakeFiles/messages_uninstall
 messages_uninstall: CMakeFiles/messages_uninstall.dir/build.make
@@ -82,6 +93,10 @@ CMakeFiles/messages_uninstall.dir/clean:
 .PHONY : CMakeFiles/messages_uninstall.dir/clean
 
 CMakeFiles/messages_uninstall.dir/depend:
+<<<<<<< Updated upstream
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles/messages_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+=======
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles/messages_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/messages_uninstall.dir/depend
 

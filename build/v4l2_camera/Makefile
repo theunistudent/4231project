@@ -57,10 +57,17 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera
+>>>>>>> Stashed changes
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +149,15 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< Updated upstream
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeFiles 0
+>>>>>>> Stashed changes
 .PHONY : all
 
 # The main clean target

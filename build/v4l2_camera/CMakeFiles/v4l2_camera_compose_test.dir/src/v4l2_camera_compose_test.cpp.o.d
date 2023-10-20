@@ -1,8 +1,15 @@
 CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o: \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_compose_test.cpp \
  /usr/include/stdc-predef.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera.hpp \
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera_device.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_compose_test.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera.hpp \
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera_device.hpp \
+>>>>>>> Stashed changes
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -211,7 +218,11 @@ CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o: \
  /usr/include/c++/11/bits/quoted_string.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/control.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/control.hpp \
+>>>>>>> Stashed changes
  /usr/include/linux/videodev2.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/linux/ioctl.h /usr/include/x86_64-linux-gnu/asm/ioctl.h \
  /usr/include/asm-generic/ioctl.h /usr/include/linux/types.h \
@@ -224,8 +235,13 @@ CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h /usr/include/linux/v4l2-common.h \
  /usr/include/linux/v4l2-controls.h /usr/include/linux/const.h \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/image_format.hpp \
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/pixel_format.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/image_format.hpp \
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/pixel_format.hpp \
+>>>>>>> Stashed changes
  /opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
@@ -647,5 +663,10 @@ CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+<<<<<<< Updated upstream
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/visibility_control.h \
  /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/parameters.hpp
+=======
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/visibility_control.h \
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/parameters.hpp
+>>>>>>> Stashed changes

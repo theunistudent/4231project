@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 # Install script for directory: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/mtrn/4231/liam_stuff/project_git/4231project/install/messages")
+=======
+# Install script for directory: /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/mtrn/4231/liam_stuff/4231project/install/messages")
+>>>>>>> Stashed changes
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

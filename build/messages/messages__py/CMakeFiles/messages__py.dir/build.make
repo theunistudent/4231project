@@ -53,14 +53,22 @@ RM = /home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< Updated upstream
 CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+=======
+CMAKE_SOURCE_DIR = /home/mtrn/4231/liam_stuff/4231project/src/messages
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/mtrn/4231/liam_stuff/4231project/build/messages
+>>>>>>> Stashed changes
 
 # Utility rule file for messages__py.
 
 # Include any custom commands dependencies for this target.
+<<<<<<< Updated upstream
 include /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
@@ -72,6 +80,19 @@ include /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messag
 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_aruco_message.py
 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/__init__.py
 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_aruco_message_s.c
+=======
+include /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/compiler_depend.make
+
+# Include the progress variables for this target.
+include /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/progress.make
+
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_aruco_message.py
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/__init__.py
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py: rosidl_generator_py/messages/msg/_aruco_message_s.c
+>>>>>>> Stashed changes
 
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,8 +108,13 @@ rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /op
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/messages/msg/ArucoMessage.idl
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/mtrn/4231/liam_stuff/4231project/build/messages/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+>>>>>>> Stashed changes
 
 rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
@@ -105,13 +131,18 @@ rosidl_generator_py/messages/msg/__init__.py: rosidl_generator_py/messages/_mess
 rosidl_generator_py/messages/msg/_aruco_message_s.c: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/messages/msg/_aruco_message_s.c
 
+<<<<<<< Updated upstream
 messages__py: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py
+=======
+messages__py: /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py
+>>>>>>> Stashed changes
 messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c
 messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 messages__py: rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
 messages__py: rosidl_generator_py/messages/msg/__init__.py
 messages__py: rosidl_generator_py/messages/msg/_aruco_message.py
 messages__py: rosidl_generator_py/messages/msg/_aruco_message_s.c
+<<<<<<< Updated upstream
 messages__py: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build.make
 .PHONY : messages__py
 
@@ -126,4 +157,20 @@ messages__py: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/
 /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/depend:
 	cd /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/project_git/4231project/src/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/depend
+=======
+messages__py: /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build.make
+.PHONY : messages__py
+
+# Rule to build all files generated by this target.
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build: messages__py
+.PHONY : /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/build
+
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/clean:
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py && $(CMAKE_COMMAND) -P CMakeFiles/messages__py.dir/cmake_clean.cmake
+.PHONY : /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/clean
+
+/home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/depend:
+	cd /home/mtrn/4231/liam_stuff/4231project/build/messages && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/liam_stuff/4231project/src/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py /home/mtrn/4231/liam_stuff/4231project/build/messages /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/mtrn/4231/liam_stuff/4231project/build/messages/messages__py/CMakeFiles/messages__py.dir/depend
+>>>>>>> Stashed changes
 
