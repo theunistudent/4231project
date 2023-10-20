@@ -14,6 +14,7 @@ import numpy as np
 class MyNode(Node):
     def __init__(self):
         super().__init__('aruco_marker_detect')
+
         # self.create_timer(10, self.timer_callback)
         self.subscription = self.create_subscription( Image, 'image_raw', self.image_callback, 10 )
         self.pose_publisher = self.create_publisher(ArucoMessage, 'marker_pose', 10)
@@ -68,11 +69,11 @@ class MyNode(Node):
                     msg.y.append(y)
                     msg.id.append(ids)      # the z variable will hold the marker id number
                     self.pose_publisher.publish(msg)
-                
 
-            aruco.drawDetectedMarkers(cv_image, corners, ids)
-            image_msg = self.bridge.cv2_to_imgmsg(cv_image, encoding="bgr8")
-            self.image_publisher.publish(image_msg)
+
+            # aruco.drawDetectedMarkers(cv_image, corners, ids)
+            # image_msg = self.bridge.cv2_to_imgmsg(cv_image, encoding="bgr8")
+            # self.image_publisher.publish(image_msg)
 
 def main(args=None):
     rclpy.init(args=args)
