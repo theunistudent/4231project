@@ -1,0 +1,26 @@
+[2.169s] Invoking command in '/home/mtrn/4231/project_workspace/src/opencv_example': PYTHONPATH=/home/mtrn/4231/project_workspace/build/opencv_example/prefix_override:/home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_example build --build-base /home/mtrn/4231/project_workspace/build/opencv_example/build install --record /home/mtrn/4231/project_workspace/build/opencv_example/install.log --single-version-externally-managed
+[2.907s] running egg_info
+[2.918s] writing ../../build/opencv_example/opencv_example.egg-info/PKG-INFO
+[2.948s] writing dependency_links to ../../build/opencv_example/opencv_example.egg-info/dependency_links.txt
+[2.948s] writing entry points to ../../build/opencv_example/opencv_example.egg-info/entry_points.txt
+[2.948s] writing requirements to ../../build/opencv_example/opencv_example.egg-info/requires.txt
+[2.948s] writing top-level names to ../../build/opencv_example/opencv_example.egg-info/top_level.txt
+[2.948s] reading manifest file '../../build/opencv_example/opencv_example.egg-info/SOURCES.txt'
+[2.956s] writing manifest file '../../build/opencv_example/opencv_example.egg-info/SOURCES.txt'
+[2.956s] running build
+[2.956s] running build_py
+[2.957s] copying opencv_example/aruco_marker_detect.py -> /home/mtrn/4231/project_workspace/build/opencv_example/build/lib/opencv_example
+[2.977s] running install
+[2.978s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.978s]   warnings.warn(
+[2.978s] running install_lib
+[2.979s] copying /home/mtrn/4231/project_workspace/build/opencv_example/build/lib/opencv_example/aruco_marker_detect.py -> /home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages/opencv_example
+[2.985s] byte-compiling /home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages/opencv_example/aruco_marker_detect.py to aruco_marker_detect.cpython-310.pyc
+[2.991s] running install_data
+[2.993s] running install_egg_info
+[2.995s] removing '/home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages/opencv_example-0.0.0-py3.10.egg-info' (and everything under it)
+[2.996s] Copying ../../build/opencv_example/opencv_example.egg-info to /home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages/opencv_example-0.0.0-py3.10.egg-info
+[2.997s] running install_scripts
+[3.022s] Installing aruco_marker_detect script to /home/mtrn/4231/project_workspace/install/opencv_example/lib/opencv_example
+[3.023s] writing list of installed files to '/home/mtrn/4231/project_workspace/build/opencv_example/install.log'
+[3.073s] Invoked command in '/home/mtrn/4231/project_workspace/src/opencv_example' returned '0': PYTHONPATH=/home/mtrn/4231/project_workspace/build/opencv_example/prefix_override:/home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_example build --build-base /home/mtrn/4231/project_workspace/build/opencv_example/build install --record /home/mtrn/4231/project_workspace/build/opencv_example/install.log --single-version-externally-managed

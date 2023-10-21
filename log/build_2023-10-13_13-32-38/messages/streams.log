@@ -1,0 +1,52 @@
+[0.168s] Invoking command in '/home/mtrn/4231/project_workspace/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/messages -- -j4 -l4
+[0.817s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.818s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.818s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.847s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.848s]   messages --arguments-file
+[0.848s]   /home/mtrn/4231/project_workspace/build/messages/rosidl_adapter__arguments__messages.json
+[0.848s]   --output-dir
+[0.848s]   /home/mtrn/4231/project_workspace/build/messages/rosidl_adapter/messages
+[0.848s]   --output-file
+[0.848s]   /home/mtrn/4231/project_workspace/build/messages/rosidl_adapter/messages.idls)
+[0.848s]   returned error code 1:
+[0.848s] 
+[0.848s]   Error processing '[] id' of 'messages/ArucoMessage': ''' is an invalid
+[0.848s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.848s] 
+[0.848s]   Traceback (most recent call last):
+[0.848s] 
+[0.848s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.848s]       return _run_code(code, main_globals, None,
+[0.848s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.848s]       exec(code, run_globals)
+[0.848s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.849s]       sys.exit(main())
+[0.849s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.849s]       abs_idl_file = convert_to_idl(
+[0.849s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.849s]       return convert_msg_to_idl(
+[0.849s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.849s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.850s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.850s]       Type(type_string, context_package_name=pkg_name),
+[0.851s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.851s]       super(Type, self).__init__(
+[0.851s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.851s]       raise InvalidResourceName(
+[0.851s] 
+[0.854s]   rosidl_adapter.parser.InvalidResourceName: '' is an invalid message name.
+[0.856s]   It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.856s] 
+[0.857s] Call Stack (most recent call first):
+[0.857s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.857s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[0.858s] 
+[0.858s] [0m
+[0.859s] -- Configuring incomplete, errors occurred!
+[0.859s] See also "/home/mtrn/4231/project_workspace/build/messages/CMakeFiles/CMakeOutput.log".
+[0.859s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.861s] Invoked command in '/home/mtrn/4231/project_workspace/build/messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/messages -- -j4 -l4

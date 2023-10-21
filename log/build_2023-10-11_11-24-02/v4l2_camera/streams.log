@@ -1,0 +1,4 @@
+[1.107s] Invoking command in '/home/mtrn/4231/project_workspace/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4
+[1.326s] [ 50%] Built target v4l2_camera
+[1.434s] [ 75%] Built target v4l2_camera_compose_test
+[1.457s] [100%] Built target v4l2_camera_node

@@ -1,0 +1,5 @@
+[0.701s] Invoking command in '/home/mtrn/4231/project_workspace/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4
+[0.880s] [ 50%] Built target v4l2_camera
+[0.944s] [ 75%] Built target v4l2_camera_node
+[0.955s] [100%] Built target v4l2_camera_compose_test
+[1.055s] Invoked command in '/home/mtrn/4231/project_workspace/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4

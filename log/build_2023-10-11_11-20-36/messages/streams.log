@@ -1,0 +1,17 @@
+[0.365s] Invoking command in '/home/mtrn/4231/project_workspace/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mtrn/4231/project_workspace/src/messages -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/project_workspace/install/messages
+[1.734s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.734s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.735s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.736s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.978s] [31mCMake Error at CMakeLists.txt:19 (rosidl_generate_interfaces):
+[1.979s]   rosidl_generate_interfaces Macro invoked with incorrect arguments for macro
+[1.979s]   named: rosidl_generate_interfaces
+[1.979s] 
+[1.979s] [0m
+[1.988s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.351s] -- Added test 'lint_cmake' to check CMake code style
+[2.359s] -- Added test 'xmllint' to check XML markup files
+[2.382s] -- Configuring incomplete, errors occurred!
+[2.383s] See also "/home/mtrn/4231/project_workspace/build/messages/CMakeFiles/CMakeOutput.log".
+[2.421s] Invoked command in '/home/mtrn/4231/project_workspace/build/messages' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mtrn/4231/project_workspace/src/messages -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/project_workspace/install/messages

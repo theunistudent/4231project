@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_marker_detect = opencv_example.aruco_marker_detect:main
+

@@ -1,0 +1,323 @@
+[0.428s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.428s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f5480014d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f54809b3a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f54809b3a00>>, mixin_verb=('build',))
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.459s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mtrn/4231/project_workspace'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/messages' with type 'ros.ament_cmake' and name 'messages'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_example) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_example' with type 'ros.ament_python' and name 'opencv_example'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera-rolling) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera-rolling' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mtrn/4231/project_workspace/install
+[0.516s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/mtrn/4231/ros_ur_driver/install
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/mtrn/4231/ws_moveit2/install
+[0.521s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[0.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/4231/project_workspace/build/messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/4231/project_workspace/install/messages', 'merge_install': False, 'path': '/home/mtrn/4231/project_workspace/src/messages', 'symlink_install': False, 'test_result_base': None}
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/4231/project_workspace/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/4231/project_workspace/install/my_package', 'merge_install': False, 'path': '/home/mtrn/4231/project_workspace/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'opencv_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/4231/project_workspace/build/opencv_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/4231/project_workspace/install/opencv_example', 'merge_install': False, 'path': '/home/mtrn/4231/project_workspace/src/opencv_example', 'symlink_install': False, 'test_result_base': None}
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.599s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/4231/project_workspace/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/4231/project_workspace/install/v4l2_camera', 'merge_install': False, 'path': '/home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling', 'symlink_install': False, 'test_result_base': None}
+[0.600s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.608s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mtrn/4231/project_workspace/src/messages' with build type 'ament_cmake'
+[0.608s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mtrn/4231/project_workspace/src/messages'
+[0.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.634s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mtrn/4231/project_workspace/src/my_package' with build type 'ament_python'
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.666s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mtrn/4231/project_workspace/src/opencv_example' with build type 'ament_python'
+[0.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_example', 'ament_prefix_path')
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/hook/ament_prefix_path.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/hook/ament_prefix_path.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/hook/ament_prefix_path.sh'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling' with build type 'ament_cmake'
+[0.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling'
+[0.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/4231/project_workspace/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/messages -- -j4 -l4
+[1.075s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mtrn/4231/project_workspace/src/my_package'
+[1.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.081s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.399s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mtrn/4231/project_workspace/src/opencv_example'
+[1.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/4231/project_workspace/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/4231/project_workspace/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4
+[1.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/4231/project_workspace/src/opencv_example': PYTHONPATH=/home/mtrn/4231/project_workspace/build/opencv_example/prefix_override:/home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_example build --build-base /home/mtrn/4231/project_workspace/build/opencv_example/build install --record /home/mtrn/4231/project_workspace/build/opencv_example/install.log --single-version-externally-managed
+[1.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/4231/project_workspace/src/my_package': PYTHONPATH=/home/mtrn/4231/project_workspace/build/my_package/prefix_override:/home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mtrn/4231/project_workspace/build/my_package/build install --record /home/mtrn/4231/project_workspace/build/my_package/install.log --single-version-externally-managed
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/4231/project_workspace/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/project_workspace/build/v4l2_camera
+[2.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[2.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/4231/project_workspace/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/project_workspace/build/v4l2_camera
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera' for CMake module files
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera' for CMake config files
+[2.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[2.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/lib'
+[2.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/bin'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/lib/python3.10/site-packages'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/bin'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.sh'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.bash'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[2.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/4231/project_workspace/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example' for CMake module files
+[2.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/4231/project_workspace/src/opencv_example' returned '0': PYTHONPATH=/home/mtrn/4231/project_workspace/build/opencv_example/prefix_override:/home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_example build --build-base /home/mtrn/4231/project_workspace/build/opencv_example/build install --record /home/mtrn/4231/project_workspace/build/opencv_example/install.log --single-version-externally-managed
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example' for CMake config files
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example/lib'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example/bin'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example/lib/pkgconfig/opencv_example.pc'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example/lib/python3.10/site-packages'
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_example', 'pythonpath')
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/hook/pythonpath.ps1'
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/hook/pythonpath.dsv'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/hook/pythonpath.sh'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/opencv_example/bin'
+[2.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_example)
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/package.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/package.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/package.sh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/package.bash'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/opencv_example/share/opencv_example/package.zsh'
+[2.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/4231/project_workspace/install/opencv_example/share/colcon-core/packages/opencv_example)
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package' for CMake module files
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package' for CMake config files
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package/lib'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package/bin'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package/lib/pkgconfig/my_package.pc'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages'
+[2.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/hook/pythonpath.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/hook/pythonpath.dsv'
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/hook/pythonpath.sh'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/my_package/bin'
+[2.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/package.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/package.dsv'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/package.sh'
+[2.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/4231/project_workspace/src/my_package' returned '0': PYTHONPATH=/home/mtrn/4231/project_workspace/build/my_package/prefix_override:/home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mtrn/4231/project_workspace/build/my_package/build install --record /home/mtrn/4231/project_workspace/build/my_package/install.log --single-version-externally-managed
+[2.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/package.bash'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/my_package/share/my_package/package.zsh'
+[2.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/4231/project_workspace/install/my_package/share/colcon-core/packages/my_package)
+[2.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera' for CMake module files
+[2.541s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera' for CMake config files
+[2.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/lib'
+[2.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[2.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[2.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/bin'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/lib/python3.10/site-packages'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/v4l2_camera/bin'
+[2.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[2.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[2.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.sh'
+[2.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.bash'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[2.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/4231/project_workspace/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[5.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/4231/project_workspace/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/messages -- -j4 -l4
+[6.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/4231/project_workspace/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/project_workspace/build/messages
+[6.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(messages)
+[6.333s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages' for CMake module files
+[6.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/4231/project_workspace/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/project_workspace/build/messages
+[6.334s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages' for CMake config files
+[6.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'cmake_prefix_path')
+[6.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/cmake_prefix_path.ps1'
+[6.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/cmake_prefix_path.dsv'
+[6.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/cmake_prefix_path.sh'
+[6.340s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/lib'
+[6.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'ld_library_path_lib')
+[6.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/ld_library_path_lib.ps1'
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/ld_library_path_lib.dsv'
+[6.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/ld_library_path_lib.sh'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/bin'
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/lib/pkgconfig/messages.pc'
+[6.349s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/lib/python3.10/site-packages'
+[6.349s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/bin'
+[6.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.ps1'
+[6.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.dsv'
+[6.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.sh'
+[6.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.bash'
+[6.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.zsh'
+[6.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/4231/project_workspace/install/messages/share/colcon-core/packages/messages)
+[6.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(messages)
+[6.839s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages' for CMake module files
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages' for CMake config files
+[6.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'cmake_prefix_path')
+[6.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/cmake_prefix_path.ps1'
+[6.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/cmake_prefix_path.dsv'
+[6.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/cmake_prefix_path.sh'
+[6.848s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/lib'
+[6.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'ld_library_path_lib')
+[6.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/ld_library_path_lib.ps1'
+[6.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/ld_library_path_lib.dsv'
+[6.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/4231/project_workspace/install/messages/share/messages/hook/ld_library_path_lib.sh'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/bin'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/lib/pkgconfig/messages.pc'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/lib/python3.10/site-packages'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/4231/project_workspace/install/messages/bin'
+[6.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.ps1'
+[6.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.dsv'
+[6.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.sh'
+[6.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.bash'
+[6.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/4231/project_workspace/install/messages/share/messages/package.zsh'
+[6.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/4231/project_workspace/install/messages/share/colcon-core/packages/messages)
+[6.884s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.884s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.885s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.896s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.944s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/4231/project_workspace/install/local_setup.ps1'
+[6.948s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mtrn/4231/project_workspace/install/_local_setup_util_ps1.py'
+[6.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/4231/project_workspace/install/setup.ps1'
+[6.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/4231/project_workspace/install/local_setup.sh'
+[6.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mtrn/4231/project_workspace/install/_local_setup_util_sh.py'
+[6.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/4231/project_workspace/install/setup.sh'
+[6.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/4231/project_workspace/install/local_setup.bash'
+[6.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/4231/project_workspace/install/setup.bash'
+[6.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/4231/project_workspace/install/local_setup.zsh'
+[6.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/4231/project_workspace/install/setup.zsh'

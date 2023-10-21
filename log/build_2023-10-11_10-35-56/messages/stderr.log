@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19 (rosidl_generate_interfaces):
+  rosidl_generate_interfaces Macro invoked with incorrect arguments for macro
+  named: rosidl_generate_interfaces
+
+[0m

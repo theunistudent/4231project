@@ -1,0 +1,23 @@
+[3.313s] Invoking command in '/home/mtrn/4231/project_workspace/src/my_package': PYTHONPATH=/home/mtrn/4231/project_workspace/build/my_package/prefix_override:/home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mtrn/4231/project_workspace/build/my_package/build install --record /home/mtrn/4231/project_workspace/build/my_package/install.log --single-version-externally-managed
+[3.793s] running egg_info
+[3.794s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[3.798s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[3.798s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[3.799s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[3.800s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[3.805s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.808s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.810s] running build
+[3.810s] running build_py
+[3.814s] running install
+[3.814s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.814s]   warnings.warn(
+[3.815s] running install_lib
+[3.822s] running install_data
+[3.826s] running install_egg_info
+[3.830s] removing '/home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.831s] Copying ../../build/my_package/my_package.egg-info to /home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[3.834s] running install_scripts
+[3.867s] Installing my_node script to /home/mtrn/4231/project_workspace/install/my_package/lib/my_package
+[3.870s] writing list of installed files to '/home/mtrn/4231/project_workspace/build/my_package/install.log'
+[3.968s] Invoked command in '/home/mtrn/4231/project_workspace/src/my_package' returned '0': PYTHONPATH=/home/mtrn/4231/project_workspace/build/my_package/prefix_override:/home/mtrn/4231/project_workspace/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/mtrn/4231/project_workspace/build/my_package/build install --record /home/mtrn/4231/project_workspace/build/my_package/install.log --single-version-externally-managed

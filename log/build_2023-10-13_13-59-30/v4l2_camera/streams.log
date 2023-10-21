@@ -1,0 +1,45 @@
+[1.279s] Invoking command in '/home/mtrn/4231/project_workspace/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4
+[1.545s] [ 50%] Built target v4l2_camera
+[1.635s] [ 75%] Built target v4l2_camera_node
+[1.699s] [100%] Built target v4l2_camera_compose_test
+[1.735s] Invoked command in '/home/mtrn/4231/project_workspace/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/project_workspace/build/v4l2_camera -- -j4 -l4
+[2.118s] Invoking command in '/home/mtrn/4231/project_workspace/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/project_workspace/build/v4l2_camera
+[2.140s] -- Install configuration: ""
+[2.140s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include
+[2.140s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera
+[2.140s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[2.141s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/parameters.hpp
+[2.141s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[2.141s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[2.141s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/control.hpp
+[2.141s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[2.141s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/lib/libv4l2_camera.so
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[2.142s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[2.143s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[2.143s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[2.143s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[2.143s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[2.143s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[2.144s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[2.144s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[2.144s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[2.145s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[2.145s] -- Installing: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.dsv
+[2.165s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[2.165s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[2.165s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[2.165s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[2.165s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.166s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[2.166s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[2.166s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.166s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[2.166s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[2.166s] -- Up-to-date: /home/mtrn/4231/project_workspace/install/v4l2_camera/share/v4l2_camera/package.xml
+[2.166s] Invoked command in '/home/mtrn/4231/project_workspace/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/project_workspace/install/opencv_example:/home/mtrn/4231/project_workspace/install/openCV_example:/home/mtrn/4231/project_workspace/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/project_workspace/build/v4l2_camera
