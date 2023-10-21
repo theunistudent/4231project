@@ -13,14 +13,23 @@ class MyNode(Node):
     def __init__(self):
         super().__init__('aruco_marker_detect')
         self.create_timer(10, self.timer_callback)
+<<<<<<< HEAD
         # self.subscription = self.create_subscription( Image, 'image_raw', self.image_callback, 10 )
+=======
+        self.subscription = self.create_subscription( Image, 'image_raw', self.image_callback, 10 )
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
         self.pose_publisher = self.create_publisher(ArucoMessage, 'marker_pose', 10)
         # self.bridge = CvBridge()
 
         # # testing things
         # self.publisher = self.create_publisher(String, 'test', 10)
+<<<<<<< HEAD
     # def image_callback(self, msg):
     def timer_callback(self):
+=======
+    def image_callback(self, msg):
+    # def timer_callback(self):
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
         # testing things
         # msg = String()
         # msg.data = "hello_world!"

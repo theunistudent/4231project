@@ -1,0 +1,194 @@
+[0.133s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/messages -- -j12 -l12
+[1.329s] [0mCMake Error: The current CMakeCache.txt directory /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt is different than the directory /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.330s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.330s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.330s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.404s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.199s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.199s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.199s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.199s]   the cmake_policy command to set the policy and suppress this warning.
+[3.199s] 
+[3.199s] Call Stack (most recent call first):
+[3.199s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.199s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.199s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[3.199s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.200s] [0m
+[3.230s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.230s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.230s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.230s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.230s]   the cmake_policy command to set the policy and suppress this warning.
+[3.230s] 
+[3.230s] Call Stack (most recent call first):
+[3.230s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.231s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.231s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.231s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[3.231s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.231s] [0m
+[3.261s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.261s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.261s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.261s]   the cmake_policy command to set the policy and suppress this warning.
+[3.261s] 
+[3.261s] Call Stack (most recent call first):
+[3.261s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.261s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.262s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.262s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[3.262s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.262s] [0m
+[3.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.263s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.263s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.334s] -- Configuring done (3.1s)
+[3.368s] -- Generating done (0.0s)
+[3.372s] -- Build files have been written to: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages
+[3.436s] [  9%] Built target messages__rosidl_generator_c
+[3.437s] [ 12%] Built target messages__cpp
+[3.452s] [ 12%] Built target ament_cmake_python_copy_messages
+[3.476s] [ 22%] Built target messages__rosidl_typesupport_fastrtps_cpp
+[3.478s] [ 32%] Built target messages__rosidl_typesupport_c
+[3.482s] [ 41%] Built target messages__rosidl_typesupport_introspection_cpp
+[3.484s] [ 51%] Built target messages__rosidl_typesupport_cpp
+[3.488s] [ 61%] Built target messages__rosidl_typesupport_introspection_c
+[3.497s] [ 70%] Built target messages__rosidl_typesupport_fastrtps_c
+[3.529s] [ 70%] Built target messages
+[3.562s] [ 74%] Built target messages__py
+[3.602s] [ 80%] Built target messages__rosidl_generator_py
+[3.637s] [ 87%] Built target messages__rosidl_typesupport_fastrtps_c__pyext
+[3.638s] [ 93%] Built target messages__rosidl_typesupport_introspection_c__pyext
+[3.642s] [100%] Built target messages__rosidl_typesupport_c__pyext
+[3.821s] running egg_info
+[3.822s] writing messages.egg-info/PKG-INFO
+[3.822s] writing dependency_links to messages.egg-info/dependency_links.txt
+[3.822s] writing top-level names to messages.egg-info/top_level.txt
+[3.825s] reading manifest file 'messages.egg-info/SOURCES.txt'
+[3.825s] writing manifest file 'messages.egg-info/SOURCES.txt'
+[3.872s] [100%] Built target ament_cmake_python_build_messages_egg
+[3.892s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/messages -- -j12 -l12
+[4.279s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --install /home/mtrn/4231/liam_stuff/4231project/build/messages
+[4.328s] -- Install configuration: ""
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/aruco_message.h
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail
+[4.329s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__functions.c
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__type_support.h
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__struct.h
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__functions.h
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/library_path.sh
+[4.330s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/library_path.dsv
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_generator_c.so
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages
+[4.330s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__rosidl_typesupport_fastrtps_c.h
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.331s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail
+[4.332s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__type_support.c
+[4.332s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h
+[4.332s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so
+[4.332s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_typesupport_c.so
+[4.332s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages
+[4.332s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/aruco_message.hpp
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__traits.hpp
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__struct.hpp
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__builder.hpp
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg
+[4.333s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/dds_fastrtps
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__rosidl_typesupport_fastrtps_cpp.hpp
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail
+[4.334s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__type_support.cpp
+[4.335s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/include/messages/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_cpp.hpp
+[4.335s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so
+[4.335s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_typesupport_cpp.so
+[4.335s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/pythonpath.sh
+[4.335s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/pythonpath.dsv
+[4.335s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info
+[4.335s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.336s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.336s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/PKG-INFO
+[4.336s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/top_level.txt
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_c.c
+[4.336s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/libmessages__rosidl_generator_py.so
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/msg
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/msg/_aruco_message_s.c
+[4.336s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py
+[4.337s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/msg/_aruco_message.py
+[4.337s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.387s] Listing '/home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages'...
+[4.387s] Compiling '/home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py'...
+[4.387s] Listing '/home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/msg'...
+[4.393s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.394s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.395s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.396s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/lib/libmessages__rosidl_generator_py.so
+[4.397s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/msg/ArucoMessage.idl
+[4.397s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/msg/ArucoMessage.msg
+[4.398s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/ament_index/resource_index/package_run_dependencies/messages
+[4.398s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/ament_index/resource_index/parent_prefix_path/messages
+[4.398s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/ament_prefix_path.sh
+[4.399s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/ament_prefix_path.dsv
+[4.399s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/path.sh
+[4.399s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/environment/path.dsv
+[4.400s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/local_setup.bash
+[4.400s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/local_setup.sh
+[4.400s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/local_setup.zsh
+[4.400s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/local_setup.dsv
+[4.401s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/package.dsv
+[4.401s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/ament_index/resource_index/packages/messages
+[4.401s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake
+[4.401s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake
+[4.402s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[4.402s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.402s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake
+[4.403s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.403s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake
+[4.403s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake
+[4.403s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake
+[4.403s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.404s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.404s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake
+[4.404s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.404s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake
+[4.404s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake
+[4.405s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake
+[4.405s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake
+[4.405s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake
+[4.405s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messagesConfig.cmake
+[4.406s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/cmake/messagesConfig-version.cmake
+[4.407s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/messages/share/messages/package.xml
+[4.424s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --install /home/mtrn/4231/liam_stuff/4231project/build/messages

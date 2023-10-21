@@ -1,4 +1,5 @@
 CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c.o: \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
@@ -7,6 +8,16 @@ CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/mtrn/4231/project_workspace/build/messages/rosidl_typesupport_introspection_c/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__type_support.c \
+ /usr/include/stdc-predef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/detail/aruco_message__rosidl_typesupport_introspection_c.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_typesupport_introspection_c/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -28,7 +39,11 @@ CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -55,7 +70,12 @@ CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

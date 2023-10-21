@@ -1,0 +1,26 @@
+<!-- Specifies dependencies and package configuration. -->
+<package format="3">
+  <!-- Name of project, make sure it is the same in CMakeLists.txt -->
+  <name>canvas</name>
+  <version>1.0.0</version>
+  <description>MTRN4231 lab 4 end effector demo.</description>
+
+  <maintainer email="dennuguyen@gmail.com" />
+  
+  <author email="dennuguyen@gmail.com">Dan Nguyen</author>
+  <license>BSD</license>
+
+  <!-- Find build tools that are required. -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- Define a meta-package. -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

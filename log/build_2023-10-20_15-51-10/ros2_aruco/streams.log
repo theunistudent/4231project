@@ -1,0 +1,24 @@
+[1.907s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/src/ros2_aruco': PYTHONPATH=/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/prefix_override:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/build install --record /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/install.log --single-version-externally-managed
+[2.249s] running egg_info
+[2.251s] writing ../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[2.251s] writing dependency_links to ../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[2.251s] writing entry points to ../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[2.252s] writing top-level names to ../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[2.255s] reading manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.257s] writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.257s] running build
+[2.257s] running build_py
+[2.257s] running install
+[2.258s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.258s]   warnings.warn(
+[2.258s] running install_lib
+[2.261s] running install_data
+[2.262s] running install_egg_info
+[2.266s] removing '/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info' (and everything under it)
+[2.266s] Copying ../../build/ros2_aruco/ros2_aruco.egg-info to /home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[2.267s] running install_scripts
+[2.297s] Installing aruco_generate_marker script to /home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco/lib/ros2_aruco
+[2.297s] Installing aruco_node script to /home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco/lib/ros2_aruco
+[2.297s] writing list of installed files to '/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/install.log'
+[2.375s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/src/ros2_aruco' returned '0': PYTHONPATH=/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/prefix_override:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/build install --record /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco/install.log --single-version-externally-managed

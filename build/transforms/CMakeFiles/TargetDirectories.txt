@@ -1,0 +1,11 @@
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/uninstall.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/transforms_uninstall.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/paper.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/static_camera_transform.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/test.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/edit_cache.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/rebuild_cache.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/list_install_components.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/install.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/install/local.dir
+/home/mtrn/4231/liam_stuff/4231project/build/transforms/CMakeFiles/install/strip.dir

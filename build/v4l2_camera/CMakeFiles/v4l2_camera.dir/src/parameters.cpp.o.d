@@ -1,7 +1,13 @@
 CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/src/parameters.cpp \
  /usr/include/stdc-predef.h \
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/parameters.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/parameters.hpp \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -555,14 +561,22 @@ CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera_device.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera_device.hpp \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/control.hpp \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/control.hpp \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /usr/include/linux/videodev2.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/linux/ioctl.h /usr/include/x86_64-linux-gnu/asm/ioctl.h \
  /usr/include/asm-generic/ioctl.h /usr/include/linux/types.h \
@@ -575,6 +589,12 @@ CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h /usr/include/linux/v4l2-common.h \
  /usr/include/linux/v4l2-controls.h /usr/include/linux/const.h \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/image_format.hpp \
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/pixel_format.hpp \
  /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/fourcc.hpp
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/image_format.hpp \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/pixel_format.hpp \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/fourcc.hpp
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7

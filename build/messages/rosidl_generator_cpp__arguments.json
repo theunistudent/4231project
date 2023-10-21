@@ -1,9 +1,16 @@
 {
   "package_name": "messages",
+<<<<<<< HEAD
   "output_dir": "/home/mtrn/4231/project_workspace/build/messages/rosidl_generator_cpp/messages",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/mtrn/4231/project_workspace/build/messages/rosidl_adapter/messages:msg/ArucoMessage.idl"
+=======
+  "output_dir": "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_cpp/messages",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_adapter/messages:msg/ArucoMessage.idl"
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +28,10 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+<<<<<<< HEAD
     "/home/mtrn/4231/project_workspace/build/messages/rosidl_adapter/messages/msg/ArucoMessage.idl"
+=======
+    "/home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_adapter/messages/msg/ArucoMessage.idl"
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
   ]
 }

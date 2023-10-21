@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/mtrn/4231/project_workspace/build/messages/messages__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/mtrn/4231/project_workspace/install/messages")
+=======
+# Install script for directory: /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/messages__py
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/mtrn/4231/liam_stuff/project_git/4231project/install/messages")
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

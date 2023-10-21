@@ -12,8 +12,13 @@ set_target_properties(messages::messages__rosidl_typesupport_introspection_c PRO
   IMPORTED_SONAME_NOCONFIG "libmessages__rosidl_typesupport_introspection_c.so"
   )
 
+<<<<<<< HEAD
 list(APPEND _IMPORT_CHECK_TARGETS messages::messages__rosidl_typesupport_introspection_c )
 list(APPEND _IMPORT_CHECK_FILES_FOR_messages::messages__rosidl_typesupport_introspection_c "${_IMPORT_PREFIX}/lib/libmessages__rosidl_typesupport_introspection_c.so" )
+=======
+list(APPEND _cmake_import_check_targets messages::messages__rosidl_typesupport_introspection_c )
+list(APPEND _cmake_import_check_files_for_messages::messages__rosidl_typesupport_introspection_c "${_IMPORT_PREFIX}/lib/libmessages__rosidl_typesupport_introspection_c.so" )
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

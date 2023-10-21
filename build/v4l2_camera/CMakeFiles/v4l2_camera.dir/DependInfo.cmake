@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/src/parameters.cpp" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o.d"
   "/home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/src/v4l2_camera.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o.d"
   "/home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o.d"
@@ -15,6 +16,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+=======
+  "/home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/parameters.cpp" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o.d"
+  "/home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o.d"
+  "/home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o" "gcc" "CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
   )
 
 # Fortran module output directory.

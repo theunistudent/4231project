@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_aruco_interfaces:msg/ArucoMarkers.msg"
+  ]
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/mtrn/4231/project_workspace/build/v4l2_camera/CMakeFiles/uninstall.dir
 /home/mtrn/4231/project_workspace/build/v4l2_camera/CMakeFiles/v4l2_camera_uninstall.dir
 /home/mtrn/4231/project_workspace/build/v4l2_camera/CMakeFiles/v4l2_camera.dir
@@ -10,3 +11,17 @@
 /home/mtrn/4231/project_workspace/build/v4l2_camera/CMakeFiles/install.dir
 /home/mtrn/4231/project_workspace/build/v4l2_camera/CMakeFiles/install/local.dir
 /home/mtrn/4231/project_workspace/build/v4l2_camera/CMakeFiles/install/strip.dir
+=======
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/uninstall.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera_uninstall.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera_node.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/v4l2_camera_compose_test.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/test.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/edit_cache.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/rebuild_cache.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/list_install_components.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/install.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/install/local.dir
+/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/CMakeFiles/install/strip.dir
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7

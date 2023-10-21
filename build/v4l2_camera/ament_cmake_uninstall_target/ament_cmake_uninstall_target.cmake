@@ -2,7 +2,11 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
+<<<<<<< HEAD
   set(install_space "/home/mtrn/4231/project_workspace/install/v4l2_camera")
+=======
+  set(install_space "/home/mtrn/4231/liam_stuff/project_git/4231project/install/v4l2_camera")
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -21,7 +25,11 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
   list(LENGTH files length)
   if(length EQUAL 0)
     message(STATUS "Uninstalling: ${path}/")
+<<<<<<< HEAD
     execute_process(COMMAND "/usr/bin/cmake" "-E" "remove_directory" "${path}")
+=======
+    execute_process(COMMAND "/home/mtrn/.local/lib/python3.10/site-packages/cmake/data/bin/cmake" "-E" "remove_directory" "${path}")
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
     # recursively try to remove parent directories
     get_filename_component(parent_path "${path}" PATH)
     ament_cmake_uninstall_target_remove_empty_directories("${parent_path}")
@@ -29,7 +37,11 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
+<<<<<<< HEAD
 set(install_manifest "/home/mtrn/4231/project_workspace/build/v4l2_camera/install_manifest.txt")
+=======
+set(install_manifest "/home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera/install_manifest.txt")
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

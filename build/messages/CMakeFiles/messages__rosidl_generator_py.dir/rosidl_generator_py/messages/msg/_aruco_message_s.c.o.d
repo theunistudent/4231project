@@ -1,5 +1,9 @@
 CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_aruco_message_s.c.o: \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_py/messages/msg/_aruco_message_s.c \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,8 +211,15 @@ CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_a
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+<<<<<<< HEAD
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h \
  /home/mtrn/4231/project_workspace/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
+=======
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/detail/aruco_message__functions.h \
+ /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages/rosidl_generator_c/messages/msg/rosidl_generator_c__visibility_control.h \
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

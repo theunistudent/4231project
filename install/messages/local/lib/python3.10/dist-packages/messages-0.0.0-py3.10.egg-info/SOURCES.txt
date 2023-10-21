@@ -3,6 +3,10 @@ messages/__init__.py
 messages.egg-info/PKG-INFO
 messages.egg-info/SOURCES.txt
 messages.egg-info/dependency_links.txt
+<<<<<<< HEAD
 messages.egg-info/top_level.txt
 messages/msg/__init__.py
 messages/msg/_aruco_message.py
+=======
+messages.egg-info/top_level.txt
+>>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7

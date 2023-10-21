@@ -1,0 +1,7 @@
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K In member function ‘[01m[Kvoid PaperTFBroadcaster::topic_callback(ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:62:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktransform_msg[m[K’
+   62 |           [01;31m[Ktransform_msg[m[K.child_frame_id = "marker_side_" + std::to_string(marker_id);
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/paper.dir/build.make:76: CMakeFiles/paper.dir/src/paper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/paper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

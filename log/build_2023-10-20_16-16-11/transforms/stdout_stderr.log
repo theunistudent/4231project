@@ -1,0 +1,9 @@
+[ 50%] Built target static_camera_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/paper.dir/src/paper.cpp.o[0m
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K In member function ‘[01m[Kvoid PaperTFBroadcaster::topic_callback(ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kposes[m[K’ was not declared in this scope
+   52 |              std::cout << "X: " << [01;31m[Kposes[m[K[marker_id].position.x << std::endl;
+      |                                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/paper.dir/build.make:76: CMakeFiles/paper.dir/src/paper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/paper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

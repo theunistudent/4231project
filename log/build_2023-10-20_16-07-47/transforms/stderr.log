@@ -1,0 +1,37 @@
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:109:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  109 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:31:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   31 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K In constructor ‘[01m[KPaperTFBroadcaster::PaperTFBroadcaster()[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:37:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   37 |       [01;31m[Ksubscription_[m[K = this->create_subscription<ros2_aruco_interfaces::msg::ArucoMarkers>( "aruco_markers", 10, std::bind(&PaperTFBroadcaster::topic_callback, this, _1));
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   38 |       [01;31m[Ktf_broadcaster_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K In member function ‘[01m[Kvoid PaperTFBroadcaster::topic_callback(ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:85:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   85 |        [01;31m[Ktf_broadcaster_[m[K->sendTransform(transform_msg);
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:95:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   95 |     [01;31m[Kprivate[m[K:
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:104:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  104 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:109:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  109 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:43:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   43 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:[m[K At global scope:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/paper.cpp:109:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  109 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/paper.dir/build.make:76: CMakeFiles/paper.dir/src/paper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/paper.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

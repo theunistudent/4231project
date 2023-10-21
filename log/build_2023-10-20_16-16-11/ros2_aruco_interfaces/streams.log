@@ -1,0 +1,201 @@
+[0.151s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces -- -j12 -l12
+[1.327s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.327s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.327s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.327s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.327s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.327s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.327s] [0mCMake Error: The current CMakeCache.txt directory /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces/CMakeCache.txt is different than the directory /home/mtrn/4231/liam_stuff/project_git/4231project/build/ros2_aruco_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.778s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.860s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.860s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.860s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.860s]   the cmake_policy command to set the policy and suppress this warning.
+[3.861s] 
+[3.861s] Call Stack (most recent call first):
+[3.861s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.861s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.862s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[3.862s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.862s] [0m
+[3.893s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.893s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.893s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.894s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.894s]   the cmake_policy command to set the policy and suppress this warning.
+[3.894s] 
+[3.894s] Call Stack (most recent call first):
+[3.894s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.894s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.894s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.894s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[3.894s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.894s] [0m
+[3.922s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.922s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.922s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.922s]   the cmake_policy command to set the policy and suppress this warning.
+[3.922s] 
+[3.923s] Call Stack (most recent call first):
+[3.923s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.923s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.923s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.923s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[3.923s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.923s] [0m
+[3.927s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.927s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.927s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.064s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.078s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.080s] -- Added test 'lint_cmake' to check CMake code style
+[4.080s] -- Added test 'xmllint' to check XML markup files
+[4.082s] -- Configuring done (3.9s)
+[4.130s] -- Generating done (0.0s)
+[4.134s] -- Build files have been written to: /home/mtrn/4231/liam_stuff/project_git/4231project/build/ros2_aruco_interfaces
+[4.205s] [  3%] Built target ros2_aruco_interfaces__cpp
+[4.206s] [ 12%] Built target ros2_aruco_interfaces__rosidl_generator_c
+[4.213s] [ 12%] Built target ament_cmake_python_copy_ros2_aruco_interfaces
+[4.245s] [ 22%] Built target ros2_aruco_interfaces__rosidl_typesupport_c
+[4.245s] [ 32%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c
+[4.250s] [ 41%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c
+[4.250s] [ 51%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.251s] [ 61%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp
+[4.251s] [ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp
+[4.282s] [ 70%] Built target ros2_aruco_interfaces
+[4.322s] [ 74%] Built target ros2_aruco_interfaces__py
+[4.364s] [ 80%] Built target ros2_aruco_interfaces__rosidl_generator_py
+[4.400s] [ 87%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.400s] [ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext
+[4.403s] [100%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.537s] running egg_info
+[4.538s] writing ros2_aruco_interfaces.egg-info/PKG-INFO
+[4.538s] writing dependency_links to ros2_aruco_interfaces.egg-info/dependency_links.txt
+[4.538s] writing top-level names to ros2_aruco_interfaces.egg-info/top_level.txt
+[4.542s] reading manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[4.543s] writing manifest file 'ros2_aruco_interfaces.egg-info/SOURCES.txt'
+[4.595s] [100%] Built target ament_cmake_python_build_ros2_aruco_interfaces_egg
+[4.613s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces -- -j12 -l12
+[5.085s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --install /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces
+[5.139s] -- Install configuration: ""
+[5.139s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces
+[5.139s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[5.139s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[5.139s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.139s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.h
+[5.139s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh
+[5.140s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[5.140s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/aruco_markers.hpp
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[5.141s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/dds_fastrtps
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c
+[5.142s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so
+[5.143s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh
+[5.144s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv
+[5.144s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info
+[5.144s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[5.144s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[5.144s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[5.144s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[5.144s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces
+[5.144s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.145s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/__init__.py
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers_s.c
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg/_aruco_markers.py
+[5.145s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[5.146s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.146s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/libros2_aruco_interfaces__rosidl_generator_py.so
+[5.197s] Listing '/home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces'...
+[5.197s] Compiling '/home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/__init__.py'...
+[5.197s] Listing '/home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/msg'...
+[5.203s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.204s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.204s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.205s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_py.so
+[5.205s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl
+[5.205s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg
+[5.205s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces
+[5.205s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces
+[5.205s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh
+[5.205s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv
+[5.206s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh
+[5.206s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv
+[5.206s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash
+[5.206s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh
+[5.206s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh
+[5.206s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv
+[5.206s] -- Installing: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv
+[5.206s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces
+[5.206s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_cppExport.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.207s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/export_ros2_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.208s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake
+[5.209s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake
+[5.210s] -- Up-to-date: /home/mtrn/4231/liam_stuff/project_git/4231project/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml
+[5.224s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --install /home/mtrn/4231/liam_stuff/4231project/build/ros2_aruco_interfaces
