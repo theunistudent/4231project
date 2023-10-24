@@ -1,0 +1,26 @@
+[0.105s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake /home/mtrn/4231/liam_stuff/4231project/src/moveit -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/liam_stuff/4231project/install/moveit
+[0.738s] -- The C compiler identification is GNU 11.4.0
+[0.738s] -- The CXX compiler identification is GNU 11.4.0
+[0.738s] -- Detecting C compiler ABI info
+[0.738s] -- Detecting C compiler ABI info - done
+[0.738s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.738s] -- Detecting C compile features
+[0.739s] -- Detecting C compile features - done
+[0.739s] -- Detecting CXX compiler ABI info
+[0.805s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.833s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.666s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.899s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.040s] -- Configured cppcheck include dirs: 
+[2.040s] -- Configured cppcheck exclude dirs and/or files: 
+[2.043s] -- Added test 'lint_cmake' to check CMake code style
+[2.045s] -- Added test 'uncrustify' to check C / C++ code style
+[2.045s] -- Configured uncrustify additional arguments: 
+[2.047s] -- Added test 'xmllint' to check XML markup files
+[2.050s] -- Configuring done (1.9s)
+[2.054s] -- Generating done (0.0s)
+[2.054s] -- Build files have been written to: /home/mtrn/4231/liam_stuff/4231project/build/moveit

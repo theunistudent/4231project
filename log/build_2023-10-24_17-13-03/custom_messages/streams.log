@@ -1,0 +1,64 @@
+[0.132s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/openCV_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/custom_messages -- -j12 -l12
+[0.858s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.859s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.859s] [  5%] Built target ament_cmake_python_copy_custom_messages
+[0.859s] running egg_info
+[0.859s] creating custom_messages.egg-info
+[0.859s] writing custom_messages.egg-info/PKG-INFO
+[0.860s] writing dependency_links to custom_messages.egg-info/dependency_links.txt
+[0.860s] writing top-level names to custom_messages.egg-info/top_level.txt
+[0.860s] writing manifest file 'custom_messages.egg-info/SOURCES.txt'
+[0.860s] reading manifest file 'custom_messages.egg-info/SOURCES.txt'
+[0.860s] writing manifest file 'custom_messages.egg-info/SOURCES.txt'
+[0.860s] [  5%] Built target ament_cmake_python_build_custom_messages_egg
+[0.860s] [  5%] Built target custom_messages__cpp
+[0.860s] [  7%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/robot_action__functions.c.o[0m
+[0.860s] [ 10%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/aruco_message__functions.c.o[0m
+[0.860s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.860s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.861s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.861s] [ 20%] [32m[1mLinking C shared library libcustom_messages__rosidl_generator_c.so[0m
+[0.861s] [ 20%] Built target custom_messages__rosidl_generator_c
+[0.861s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.861s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.861s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.901s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/msg/detail/aruco_message__type_support.cpp.o[0m
+[0.903s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/msg/detail/robot_action__type_support.cpp.o[0m
+[0.981s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/msg/robot_action__type_support.cpp.o[0m
+[0.985s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/msg/aruco_message__type_support.cpp.o[0m
+[1.003s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/aruco_message__type_support.cpp.o[0m
+[1.003s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/robot_action__type_support.cpp.o[0m
+[1.205s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/msg/robot_action__type_support.cpp.o[0m
+[1.213s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/msg/aruco_message__type_support.cpp.o[0m
+[1.247s] [ 51%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/aruco_message__type_support.c.o[0m
+[1.259s] [ 53%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/robot_action__type_support.c.o[0m
+[1.272s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/msg/detail/robot_action__type_support_c.cpp.o[0m
+[1.279s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/msg/detail/aruco_message__type_support_c.cpp.o[0m
+[1.318s] [ 61%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_c.so[0m
+[1.342s] [ 64%] [32m[1mLinking C shared library libcustom_messages__rosidl_typesupport_introspection_c.so[0m
+[1.411s] [ 64%] Built target custom_messages__rosidl_typesupport_introspection_c
+[1.417s] [ 64%] Built target custom_messages__rosidl_typesupport_c
+[1.468s] [ 66%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_cpp.so[0m
+[1.580s] [ 66%] Built target custom_messages__rosidl_typesupport_cpp
+[1.591s] [ 69%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_introspection_cpp.so[0m
+[1.737s] [ 71%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.792s] [ 71%] Built target custom_messages__rosidl_typesupport_introspection_cpp
+[1.799s] [ 74%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_c.so[0m
+[1.882s] [ 74%] Built target custom_messages__rosidl_typesupport_fastrtps_cpp
+[1.904s] [ 74%] Built target custom_messages__rosidl_typesupport_fastrtps_c
+[1.947s] [ 74%] Built target custom_messages
+[1.983s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.349s] [ 76%] Built target custom_messages__py
+[2.411s] [ 79%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_aruco_message_s.c.o[0m
+[2.414s] [ 82%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_robot_action_s.c.o[0m
+[2.579s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/libcustom_messages__rosidl_generator_py.so[0m
+[2.670s] [ 84%] Built target custom_messages__rosidl_generator_py
+[2.729s] [ 87%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[2.730s] [ 89%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.732s] [ 92%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.845s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.846s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.860s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.901s] [100%] Built target custom_messages__rosidl_typesupport_introspection_c__pyext
+[2.913s] [100%] Built target custom_messages__rosidl_typesupport_c__pyext
+[2.917s] [100%] Built target custom_messages__rosidl_typesupport_fastrtps_c__pyext

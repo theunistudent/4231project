@@ -1,0 +1,16 @@
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/path.cpp:[m[K In member function ‘[01m[Kvoid PointTFBroadcaster::topic_callback(custom_messages::msg::RobotAction_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/path.cpp:31:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   31 |             if (!msg->[01;31m[Kposes[m[K.empty() && i < msg->poses.size()) {
+      |                       [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/path.cpp:31:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   31 |             if (!msg->poses.empty() && i < msg->[01;31m[Kposes[m[K.size()) {
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/path.cpp:32:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   32 |                 transform_msg.transform.translation.x = msg->[01;31m[Kposes[m[K[i].x;
+      |                                                              [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/4231/liam_stuff/4231project/src/transforms/src/path.cpp:33:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_messages::msg::RobotAction_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposes[m[K’
+   33 |                 transform_msg.transform.translation.y = msg->[01;31m[Kposes[m[K[i].y;
+      |                                                              [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/path.dir/build.make:76: CMakeFiles/path.dir/src/path.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/path.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

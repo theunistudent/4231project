@@ -16,7 +16,7 @@ set(_transforms_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT transforms_FIND_QUIETLY)
-  message(STATUS "Found transforms: 0.0.0 (${transforms_DIR})")
+  message(STATUS "Found transforms: 0.1.0 (${transforms_DIR})")
 endif()
 
 # warn when using a deprecated package

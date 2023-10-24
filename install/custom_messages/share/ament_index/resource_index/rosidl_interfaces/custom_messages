@@ -1,0 +1,4 @@
+msg/ArucoMessage.idl
+msg/ArucoMessage.msg
+msg/RobotAction.idl
+msg/RobotAction.msg

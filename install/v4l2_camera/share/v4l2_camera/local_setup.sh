@@ -2,11 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-<<<<<<< HEAD
-: ${AMENT_CURRENT_PREFIX:="/home/mtrn/4231/project_workspace/install/v4l2_camera"}
-=======
-: ${AMENT_CURRENT_PREFIX:="/home/mtrn/4231/liam_stuff/project_git/4231project/install/v4l2_camera"}
->>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
+: ${AMENT_CURRENT_PREFIX:="/home/mtrn/4231/liam_stuff/4231project/install/v4l2_camera"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

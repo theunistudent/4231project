@@ -223,6 +223,19 @@ static_camera_transform/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_camera_transform.dir/build.make CMakeFiles/static_camera_transform.dir/build
 .PHONY : static_camera_transform/fast
 
+#=============================================================================
+# Target rules for targets named path
+
+# Build rule for target.
+path: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 path
+.PHONY : path
+
+# fast build rule for target.
+path/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/path.dir/build.make CMakeFiles/path.dir/build
+.PHONY : path/fast
+
 src/paper.o: src/paper.cpp.o
 .PHONY : src/paper.o
 
@@ -246,6 +259,30 @@ src/paper.s: src/paper.cpp.s
 src/paper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/paper.dir/build.make CMakeFiles/paper.dir/src/paper.cpp.s
 .PHONY : src/paper.cpp.s
+
+src/path.o: src/path.cpp.o
+.PHONY : src/path.o
+
+# target to build an object file
+src/path.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/path.dir/build.make CMakeFiles/path.dir/src/path.cpp.o
+.PHONY : src/path.cpp.o
+
+src/path.i: src/path.cpp.i
+.PHONY : src/path.i
+
+# target to preprocess a source file
+src/path.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/path.dir/build.make CMakeFiles/path.dir/src/path.cpp.i
+.PHONY : src/path.cpp.i
+
+src/path.s: src/path.cpp.s
+.PHONY : src/path.s
+
+# target to generate assembly for a file
+src/path.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/path.dir/build.make CMakeFiles/path.dir/src/path.cpp.s
+.PHONY : src/path.cpp.s
 
 src/static_camera_transform.o: src/static_camera_transform.cpp.o
 .PHONY : src/static_camera_transform.o
@@ -287,10 +324,14 @@ help:
 	@echo "... transforms_uninstall"
 	@echo "... uninstall"
 	@echo "... paper"
+	@echo "... path"
 	@echo "... static_camera_transform"
 	@echo "... src/paper.o"
 	@echo "... src/paper.i"
 	@echo "... src/paper.s"
+	@echo "... src/path.o"
+	@echo "... src/path.i"
+	@echo "... src/path.s"
 	@echo "... src/static_camera_transform.o"
 	@echo "... src/static_camera_transform.i"
 	@echo "... src/static_camera_transform.s"

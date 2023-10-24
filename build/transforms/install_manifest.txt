@@ -1,5 +1,6 @@
 /home/mtrn/4231/liam_stuff/4231project/install/transforms/lib/transforms/paper
 /home/mtrn/4231/liam_stuff/4231project/install/transforms/lib/transforms/static_camera_transform
+/home/mtrn/4231/liam_stuff/4231project/install/transforms/lib/transforms/path
 /home/mtrn/4231/liam_stuff/4231project/install/transforms/share/ament_index/resource_index/package_run_dependencies/transforms
 /home/mtrn/4231/liam_stuff/4231project/install/transforms/share/ament_index/resource_index/parent_prefix_path/transforms
 /home/mtrn/4231/liam_stuff/4231project/install/transforms/share/transforms/environment/ament_prefix_path.sh

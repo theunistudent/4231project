@@ -1,1 +1,1 @@
-rclcpp;ros2_aruco_interfaces;std_msgs;geometry_msgs;visualization_msgs;tf2_ros;tf2
+rclcpp;ros2_aruco_interfaces;std_msgs;geometry_msgs;visualization_msgs;tf2;tf2_ros;custom_messages;sensor_msgs;ament_lint_auto

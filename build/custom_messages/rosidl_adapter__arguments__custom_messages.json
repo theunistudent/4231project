@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_messages",
+  "non_idl_tuples": [
+    "/home/mtrn/4231/liam_stuff/4231project/src/custom_messages:msg/ArucoMessage.msg",
+    "/home/mtrn/4231/liam_stuff/4231project/src/custom_messages:msg/RobotAction.msg"
+  ]
+}

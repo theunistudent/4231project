@@ -1,0 +1,41 @@
+[0.989s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera -- -j12 -l12
+[1.048s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 2. Offending entry: <<<<<<< HEAD[0m
+[1.048s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 8. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.049s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 40. Offending entry: <<<<<<< HEAD[0m
+[1.049s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 44. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.049s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 140. Offending entry: <<<<<<< HEAD[0m
+[1.049s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 149. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.049s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 251. Offending entry: <<<<<<< HEAD[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 256. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 263. Offending entry: <<<<<<< HEAD[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 290. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 295. Offending entry: <<<<<<< HEAD[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 310. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 453. Offending entry: <<<<<<< HEAD[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 458. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 465. Offending entry: <<<<<<< HEAD[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 485. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.050s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 498. Offending entry: <<<<<<< HEAD[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 506. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 540. Offending entry: <<<<<<< HEAD[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 557. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 631. Offending entry: <<<<<<< HEAD[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 635. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 644. Offending entry: <<<<<<< HEAD[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 648. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 672. Offending entry: <<<<<<< HEAD[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 704. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 765. Offending entry: <<<<<<< HEAD[0m
+[1.051s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 775. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 807. Offending entry: <<<<<<< HEAD[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 811. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 838. Offending entry: <<<<<<< HEAD[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 842. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 847. Offending entry: <<<<<<< HEAD[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 853. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 858. Offending entry: <<<<<<< HEAD[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 870. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 875. Offending entry: <<<<<<< HEAD[0m
+[1.052s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt on line 937. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[1.052s] [0mCMake Error: The current CMakeCache.txt directory /home/mtrn/4231/liam_stuff/4231project/build/v4l2_camera/CMakeCache.txt is different than the directory /home/mtrn/4231/liam_stuff/project_git/4231project/build/v4l2_camera where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.054s] Makefile:2: *** missing separator.  Stop.

@@ -1,13 +1,7 @@
 CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: \
-<<<<<<< HEAD
- /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp \
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera/src/v4l2_camera_device.cpp \
  /usr/include/stdc-predef.h \
- /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera_device.hpp \
-=======
- /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/src/v4l2_camera_device.cpp \
- /usr/include/stdc-predef.h \
- /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/v4l2_camera_device.hpp \
->>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -216,11 +210,7 @@ CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: \
  /usr/include/c++/11/bits/quoted_string.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
-<<<<<<< HEAD
- /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/control.hpp \
-=======
- /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/control.hpp \
->>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera/include/v4l2_camera/control.hpp \
  /usr/include/linux/videodev2.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/linux/ioctl.h /usr/include/x86_64-linux-gnu/asm/ioctl.h \
  /usr/include/asm-generic/ioctl.h /usr/include/linux/types.h \
@@ -233,13 +223,8 @@ CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h /usr/include/linux/v4l2-common.h \
  /usr/include/linux/v4l2-controls.h /usr/include/linux/const.h \
-<<<<<<< HEAD
- /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/image_format.hpp \
- /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/pixel_format.hpp \
-=======
- /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/image_format.hpp \
- /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/pixel_format.hpp \
->>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera/include/v4l2_camera/image_format.hpp \
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera/include/v4l2_camera/pixel_format.hpp \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -656,8 +641,4 @@ CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
-<<<<<<< HEAD
- /home/mtrn/4231/project_workspace/src/ros2_v4l2_camera-rolling/include/v4l2_camera/fourcc.hpp
-=======
- /home/mtrn/4231/liam_stuff/project_git/4231project/src/ros2_v4l2_camera-rolling/include/v4l2_camera/fourcc.hpp
->>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7
+ /home/mtrn/4231/liam_stuff/4231project/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp

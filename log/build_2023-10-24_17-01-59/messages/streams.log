@@ -1,0 +1,38 @@
+[0.107s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/messages -- -j12 -l12
+[0.740s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 2. Offending entry: <<<<<<< HEAD[0m
+[0.740s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 8. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.741s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 40. Offending entry: <<<<<<< HEAD[0m
+[0.741s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 44. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.742s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 140. Offending entry: <<<<<<< HEAD[0m
+[0.742s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 149. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.742s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 251. Offending entry: <<<<<<< HEAD[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 256. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 276. Offending entry: <<<<<<< HEAD[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 280. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 294. Offending entry: <<<<<<< HEAD[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 299. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 321. Offending entry: <<<<<<< HEAD[0m
+[0.743s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 326. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.744s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 342. Offending entry: <<<<<<< HEAD[0m
+[0.744s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 350. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.744s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 366. Offending entry: <<<<<<< HEAD[0m
+[0.744s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 392. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.744s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 400. Offending entry: <<<<<<< HEAD[0m
+[0.744s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 404. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 410. Offending entry: <<<<<<< HEAD[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 414. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 506. Offending entry: <<<<<<< HEAD[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 511. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 522. Offending entry: <<<<<<< HEAD[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 554. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.745s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 615. Offending entry: <<<<<<< HEAD[0m
+[0.746s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 619. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.746s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 651. Offending entry: <<<<<<< HEAD[0m
+[0.746s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 655. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.746s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 682. Offending entry: <<<<<<< HEAD[0m
+[0.746s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 686. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.746s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 715. Offending entry: <<<<<<< HEAD[0m
+[0.747s] [0mCMake Error: Parse error in cache file /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt on line 733. Offending entry: >>>>>>> 57a280f9863c4f936e9ab30a62fb776e097f5ca7[0m
+[0.747s] [0mCMake Error: The current CMakeCache.txt directory /home/mtrn/4231/liam_stuff/4231project/build/messages/CMakeCache.txt is different than the directory /home/mtrn/4231/liam_stuff/project_git/4231project/build/messages where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.747s] Makefile:2: *** missing separator.  Stop.
+[0.748s] Invoked command in '/home/mtrn/4231/liam_stuff/4231project/build/messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake --build /home/mtrn/4231/liam_stuff/4231project/build/messages -- -j12 -l12

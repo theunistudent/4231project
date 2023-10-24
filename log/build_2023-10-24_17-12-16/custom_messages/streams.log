@@ -1,0 +1,67 @@
+[0.124s] Invoking command in '/home/mtrn/4231/liam_stuff/4231project/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/liam_stuff/4231project/install/ros2_aruco:/home/mtrn/4231/liam_stuff/4231project/install/opencv_example:/home/mtrn/4231/liam_stuff/4231project/install/openCV_example:/home/mtrn/4231/liam_stuff/4231project/install/my_package:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /home/mtrn/.local/bin/cmake /home/mtrn/4231/liam_stuff/4231project/src/custom_messages -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/liam_stuff/4231project/install/custom_messages
+[0.770s] -- The C compiler identification is GNU 11.4.0
+[0.772s] -- The CXX compiler identification is GNU 11.4.0
+[0.773s] -- Detecting C compiler ABI info
+[0.774s] -- Detecting C compiler ABI info - done
+[0.775s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.776s] -- Detecting C compile features
+[0.777s] -- Detecting C compile features - done
+[0.778s] -- Detecting CXX compiler ABI info
+[0.835s] -- Detecting CXX compiler ABI info - done
+[0.848s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.848s] -- Detecting CXX compile features
+[0.849s] -- Detecting CXX compile features - done
+[0.858s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.686s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.954s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.004s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.838s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.655s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[4.655s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.655s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.655s]   the cmake_policy command to set the policy and suppress this warning.
+[4.655s] 
+[4.655s] Call Stack (most recent call first):
+[4.656s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.656s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.656s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[4.656s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.656s] [0m
+[4.704s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.730s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.731s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[4.731s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.731s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.732s]   the cmake_policy command to set the policy and suppress this warning.
+[4.732s] 
+[4.732s] Call Stack (most recent call first):
+[4.732s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[4.732s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.732s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.732s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[4.733s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.733s] [0m
+[4.778s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[4.778s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.778s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.778s]   the cmake_policy command to set the policy and suppress this warning.
+[4.778s] 
+[4.779s] Call Stack (most recent call first):
+[4.779s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[4.779s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.779s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.779s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[4.780s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.780s] [0m
+[4.804s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.805s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.805s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.805s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.851s] -- Found PythonExtra: .so  
+[4.970s] -- Configuring done (4.8s)
+[5.000s] -- Generating done (0.0s)
+[5.002s] -- Build files have been written to: /home/mtrn/4231/liam_stuff/4231project/build/custom_messages
